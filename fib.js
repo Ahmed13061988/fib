@@ -24,3 +24,16 @@
 // console.log(fib(50));
 
 const myName = "Ahmed";
+
+function first() {
+  if (age >= 30) {
+    const age = 34;
+    var millenial = ture;
+  }
+
+  function second() {
+    const job = "Web developer";
+    console.log(`${myName} is a ${age}-old `);
+  }
+  second();
+}
