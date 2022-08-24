@@ -52,3 +52,5 @@ function third() {
   const d = "Hey!";
   console.log(d + a + b + c);
 }
+
+// the console.log() will gives ReferenceError because b and c is not in scope chain
