@@ -9,3 +9,4 @@ var runningSum = function (nums) {
 };
 
 console.log(runningSum(nums));
+//Hello
