@@ -5,3 +5,15 @@
 // Return k after placing the final result in the first k slots of nums.
 
 // Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+var removeElement = function (nums, val) {
+  //Go through the array and delete occurences of that value
+  for (var i = 0; i < nums.length; i++) {
+    if (nums[i] === val) {
+      nums.splice(i, 1);
+      i--;
+    }
+  }
+  //Return the new length
+  return nums.length;
+};
